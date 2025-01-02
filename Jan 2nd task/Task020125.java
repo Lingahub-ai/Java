@@ -34,8 +34,8 @@ public static void checkVowels(String A) throws NoVowelsException {
   }
 }
 class NoVowelsException extends Exception {
-  public NoVowelsException(String message) {
-    super(message);
+  public NoVowelsException(String Error) {
+    super(Error);
   }
 }
 
